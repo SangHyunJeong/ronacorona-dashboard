@@ -132,3 +132,6 @@ def update_hello(value):
     fig["data"][1]["line"]["color"] = "#8e44ad"
     fig["data"][2]["line"]["color"] = "#27ae60"
     return fig
+
+
+app.run_server(debug=True)
